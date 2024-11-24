@@ -2,30 +2,63 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>About me</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
     <style>
+        :root {
+            --background: #f9f8f7; /* Soft warm beige */
+            --card-background: #ffffff; /* Crisp white */
+            --text-color: #2c3e50; /* Rich navy */
+            --accent-color: #d4af37; /* Subtle gold */
+            --shadow-color: rgba(0, 0, 0, 0.1); /* Soft shadow */
+            --font-family: "Georgia", serif; /* Elegant serif */
+        }
+
         body {
-            font-family: Arial, sans-serif;
-            max-width: 1500px;
+            font-family: var(--font-family);
+            background-color: var(--background);
+            color: var(--text-color);
+            margin: 0;
+            padding: 2rem;
+            max-width: 1200px;
             margin: 0 auto;
-            padding: 2rem;
-            background-color: #f5f5f5;
-            color: #333;
+            line-height: 1.8;
         }
+
         .about-container {
-            background-color: white;
+            background-color: var(--card-background);
             padding: 2rem;
-            border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            border-radius: 12px;
+            box-shadow: 0 4px 15px var(--shadow-color);
+            margin: 2rem auto;
+            max-width: 900px;
+            transition: transform 0.3s, box-shadow 0.3s;
         }
+
+        .about-container:hover {
+            box-shadow: 0 6px 25px rgba(0, 0, 0, 0.15);
+            transform: translateY(-5px);
+        }
+
         .profile-heading {
-            color: #2c3e50;
-            margin-bottom: 1.5rem;
-            border-bottom: 2px solid #3498db;
-            padding-bottom: 15px;
+            font-size: 2.5rem;
+            color: var(--text-color);
+            margin-bottom: 1rem;
+            text-align: center;
+            border-bottom: 2px solid var(--accent-color);
+            display: inline-block;
+            padding-bottom: 0.5rem;
+            font-weight: bold;
         }
+
         .profile-text {
-            font-size: 25px;
+            font-size: 1.2rem;
+            color: var(--text-color);
+            text-align: justify;
+        }
+
+        p {
+            margin: 1.5rem 0;
         }
     </style>
 </head>
@@ -34,7 +67,10 @@
         <h1 class="profile-heading">About Me</h1>
         <div class="profile-text">
             <p>
-                A hardworking and dedicated student with a passion for advancing company missions through technological innovation. Proficient in advanced computer skills and adept at navigating and utilizing various social media platforms to enhance engagement and communication. Skilled in applying technology-driven solutions to achieve strategic goals and foster growth.
+                A hardworking and dedicated individual with a passion for advancing company missions through technological innovation. Skilled in applying technology-driven solutions to achieve strategic goals and foster growth.
+            </p>
+            <p>
+                Proficient in advanced computer skills and adept at utilizing various social media platforms to enhance engagement and communication. With an eye for detail and a results-oriented mindset, I strive to bridge innovation with purpose in every endeavor.
             </p>
         </div>
     </div>
