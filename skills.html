@@ -3,45 +3,136 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Skills</title>
+    <title>My Professional Skills</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Arial', sans-serif;
             line-height: 1.6;
-            background-color: #f4f4f9;
-            color: #333;
             margin: 0;
-            padding: 0;
+            padding: 20px;
+            background-color: #f5f5f5;
+            color: #333;
         }
+
         .container {
             max-width: 800px;
             margin: 0 auto;
-            padding: 20px;
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 15px rgba(0,0,0,0.1);
         }
+
         h1 {
+            color: #2c3e50;
             text-align: center;
-            color: #007bff;
+            padding-bottom: 15px;
+            margin-bottom: 30px;
+            border-bottom: 3px solid #3498db;
         }
-        ul {
-            list-style-type: disc;
-            padding-left: 20px;
+
+        .skills-section {
+            display: grid;
+            gap: 20px;
         }
-        li {
+
+        .skill-card {
+            background-color: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            border-left: 4px solid #3498db;
+            transition: transform 0.2s ease;
+        }
+
+        .skill-card:hover {
+            transform: translateX(10px);
+            background-color: #e8f4f8;
+        }
+
+        .skill-title {
+            display: flex;
+            align-items: center;
             margin-bottom: 10px;
+            color: #2c3e50;
+            font-weight: bold;
+        }
+
+        .skill-icon {
+            margin-right: 10px;
+            font-size: 1.5em;
+        }
+
+        .skill-description {
+            color: #666;
+            margin-left: 35px;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 15px;
+            }
+            
+            .skill-card {
+                padding: 15px;
+            }
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>Skills</h1>
-        <ul>
-            <li>Advanced communication skills</li>
-            <li>Proficient in Python programming</li>
-            <li>Technologically adept with advanced computer skills</li>
-            <li>Skilled in navigating and using various social media platforms</li>
-            <li>Basic proficiency in French, with the ability to engage in conversational contexts</li>
-        </ul>
+        <h1>Professional Skills</h1>
+        
+        <div class="skills-section">
+            <div class="skill-card">
+                <div class="skill-title">
+                    <span class="skill-icon">💬</span>
+                    Communication
+                </div>
+                <div class="skill-description">
+                    Advanced communication skills with ability to effectively convey complex ideas and collaborate with diverse teams.
+                </div>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-title">
+                    <span class="skill-icon">💻</span>
+                    Programming
+                </div>
+                <div class="skill-description">
+                    Proficient in Python programming with experience in developing various applications and solving complex problems.
+                </div>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-title">
+                    <span class="skill-icon">🖥️</span>
+                    Technical Proficiency
+                </div>
+                <div class="skill-description">
+                    Technologically adept with advanced computer skills across multiple platforms and software applications.
+                </div>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-title">
+                    <span class="skill-icon">📱</span>
+                    Social Media
+                </div>
+                <div class="skill-description">
+                    Skilled in navigating and utilizing various social media platforms to enhance engagement and communication.
+                </div>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-title">
+                    <span class="skill-icon">🌍</span>
+                    Language
+                </div>
+                <div class="skill-description">
+                    Basic proficiency in French, capable of engaging in conversational contexts and expanding international communication abilities.
+                </div>
+            </div>
+        </div>
     </div>
 </body>
 </html>
-
