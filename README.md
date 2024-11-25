@@ -37,7 +37,10 @@ git checkout -b feature
 ```bash
 git commit -m "Update"
 ```
-
+4. **Push the branch**
+```bash
+git push
+```
 
 
 
