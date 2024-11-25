@@ -24,6 +24,7 @@ git clone
 \\\ bash
 cd Happy-verse
 \\\
+4. **open index.html**
 
 
 
