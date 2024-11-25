@@ -1,9 +1,12 @@
 # Happy-verse
 A simple and detailed website built using HTML and css
 ## Table of content
+- [Features](#features)
+- [Installation](#installation)
 - [Resume](#resume)
 - [Skills](#skills)
 - [Education_and_certification](#education_and_certification)
+
 
 ## resume
 **Profile**  
