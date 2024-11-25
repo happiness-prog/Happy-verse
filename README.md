@@ -20,7 +20,10 @@ A simple and detailed website built using HTML and css
 \\\ bash
 git clone 
 \\\
-
+3. **naviagate to project directory**
+\\\ bash
+cd Happy-verse
+\\\
 
 
 
