@@ -14,6 +14,15 @@ A simple and detailed website built using HTML and css
 - user-friendly interface
 
 
+## installation instructions
+1. **fork the repository**
+2. **clone the repository**
+\\\ bash
+git clone 
+\\\
+
+
+
 
 ## resume
 **Profile**  
