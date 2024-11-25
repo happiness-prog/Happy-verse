@@ -17,14 +17,29 @@ A simple and detailed website built using HTML and css
 ## installation instructions
 1. **fork the repository**
 2. **clone the repository**
-\\\ bash
+```bash
 git clone 
-\\\
+```
 3. **naviagate to project directory**
-\\\ bash
+```bash
 cd Happy-verse
-\\\
+```
 4. **open index.html**
+## contributing 
+Contributes are Welcome! Please follow this steps 
+
+1. **Fork the new repository**
+2. **Create new branch**
+```bash
+git checkout -b feature
+```
+3. **commit your changes**
+```bash
+git commit -m "Update"
+```
+
+
+
 
 
 
