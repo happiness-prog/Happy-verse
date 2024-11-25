@@ -5,7 +5,14 @@ A simple and detailed website built using HTML and css
 - [Installation](#installation)
 - [Resume](#resume)
 - [Skills](#skills)
-- [Education_and_certification](#education_and_certification)
+- [Education_and_certification](#Education)
+
+## Features 
+- Add and delete tasks 
+- mark tests as completed 
+- Responsive design
+- user-friendly interface
+
 
 
 ## resume
